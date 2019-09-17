@@ -1,0 +1,36 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/* Custom page CSS from bootstrap for the sticky footer - Joseph Bourne */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* custom img layout for bootstrap jumbotron class - joseph bourne */
+
+.my-img {
+  background-image: url("../img/my-bg.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+}
