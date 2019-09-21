@@ -1,0 +1,21 @@
+/* link customerizer */
+.lc {
+  color: #fff;
+}
+
+/* using customer color instead of bg-primary bootstrap css properties */
+.nav-bg-prime {
+  background: #6bc0cf;
+}
+
+/* jumbotron bg img and jumbo text */
+.jumbo-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("commerce-crown-modern.jpg");
+  background-size: cover;
+  height: 350px;
+}
+
+.jumbo-txt {
+  color: #fff;
+}
