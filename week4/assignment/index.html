@@ -7,12 +7,22 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- custom css to overwrite bootstrap css -->
     <link rel="stylesheet" href="overwrite.css" />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
       crossorigin="anonymous"
     />
 
@@ -24,13 +34,19 @@
       <nav class="navbar justify-content-center navbar-dark nav-bg-prime">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link lc" href="#">Home</a>
+            <a class="nav-link lc" href="#">
+              <i class="fas fa-home">Home</i>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link lc" href="#">Categories</a>
+            <a class="nav-link lc" href="#">
+              <i class="fas fa-box">Categories</i>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link lc" href="#">Product</a>
+            <a class="nav-link lc" href="#">
+              <i class="fas fa-shopping-bag">Product</i>
+            </a>
           </li>
         </ul>
       </nav>
@@ -38,7 +54,7 @@
       <!-- jumbotron section with my custom image -->
       <div class="jumbotron jumbotron-fluid jumbo-bg">
         <div class="container">
-          <h1 class="display-4 jumbo-txt">Fluid jumbotron</h1>
+          <h1 class="display-4 jumbo-txt">Jumbotron Shopping Mall</h1>
           <p class="lead jumbo-txt">
             This is a modified jumbotron that occupies the entire horizontal
             space of its parent.
@@ -46,6 +62,100 @@
         </div>
       </div>
       <!-- ending jumbotron section -->
+
+      <!-- Card section -->
+      <div class="row">
+        <div class="col-sm-3 col-md-6 col-lg-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="card_imgs/boutique-clothes-indoors-264554.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Clothing Boutique</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-6 col-lg-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="card_imgs/branding-buy-city-264636.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Indoor Grocery Store</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-6 col-lg-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="card_imgs/business-classic-collection-2938205.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Classic Suit Store</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-6 col-lg-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end card section-->
+      <!-- article content section-->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+            corporis vero maxime impedit, ex porro eligendi amet quibusdam odio
+            numquam nobis id voluptates blanditiis velit debitis pariatur
+            assumenda eum voluptatem. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Rerum corporis vero maxime impedit, ex porro
+            eligendi amet quibusdam odio numquam nobis id voluptates blanditiis
+            velit debitis pariatur assumenda eum voluptatem. Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Rerum corporis vero maxime
+            impedit, ex porro eligendi amet quibusdam odio numquam nobis id
+            voluptates blanditiis velit debitis pariatur assumenda eum
+            voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Rerum corporis vero maxime impedit, ex porro eligendi amet
+            quibusdam odio numquam nobis id voluptates blanditiis velit debitis
+            pariatur assumenda eum voluptatem. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Rerum corporis vero maxime impedit, ex
+            porro eligendi amet quibusdam odio numquam nobis id voluptates
+            blanditiis velit debitis pariatur assumenda eum voluptatem.
+          </p>
+        </div>
+      </div>
+      <!-- ending article content section-->
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
